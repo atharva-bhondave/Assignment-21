@@ -8,15 +8,15 @@
     <script>
         let name = prompt('Enter your name');
         const age = parseInt(prompt('Enter Your Age'));
-        var mobile= prompt("Enter your Mobile no");
+        var mobile= parseInt(prompt("Enter your Mobile no"));
         res= confirm("Are u sure?");
         document.write(`Greetings ${name} <br>`);
         document.write(`${age} Getting oldwr every day huh <br>`);
         document.write(`Your no.:${mobile}<br>`);
-        console.log(typeof`Name: ${name}<br>`);
-        console.log(typeof`mobile`)
-        console.log(res);
-        console.log(typeof`Age: ${age}`);
+        console.log(`Name: ${typeof name}`);
+        console.log(`Mobile: ${typeof mobile}`);
+        console.log(`Type of Res: ${typeof res}`);
+        console.log(`Age: ${typeof age}`);
     </script>
 </body>
 </html>
